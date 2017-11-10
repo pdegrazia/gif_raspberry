@@ -3,7 +3,7 @@ import json
 from flask import Flask
 app = Flask(__name__)
 
-public_key = 'dc6zaTOxFJmzC'
+public_key = 'SECRET'
 url = 'http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=funny+cat'
 
 
